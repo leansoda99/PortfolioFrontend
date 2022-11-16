@@ -1,0 +1,167 @@
+{
+			"nombre": "Leandro",
+			"sNombre":"Nahuel",
+			"apellido": "Zapata",
+			"localidad":"Los Polvorines, Buenos Aires",
+			"twitter":"https://twitter.com/Leansoda99",
+			"facebook":"https://www.facebook.com/yvaeltercero/",
+			"instagram":"https://www.instagram.com/leansoda/?hl=es",
+			"foto": "assets/foto.jpeg",
+			"banner": "assets/banner.jpg",
+			"estudios": "Estudiante de Sistemas en UNGS",
+			"sobreMi":{
+				"descripcion":"Como persona organizada y con una gran motivación, soy capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí en cualquier proyecto, al mismo tiempo que me esfuerzo por trabajar en equipo y fomentar valores como los del compañerismo. Priorizo ante todo el buen trato, el esfuerzo; y aprender todos los dias de cada actividad que me toque desempeñar."},
+			"experiencias":[{
+				"logo":"./assets/logo tip.webp",
+				"alternative":"logo tip",
+				"styles":"height: 30px",
+				"puesto":"Aprendiz de serigrafía.",
+				"empresa":"THE INK POINT S.A.",
+				"disponibilidad":"Full Time",
+				"fInicio":"Febrero 2022",
+				"fSalida":"Actualidad",
+				"direccion":"Velez Sarfield 5780"
+			},
+
+				{"logo":"./assets/sediex.png",
+				"alternative":"logo sediex",
+				"styles":"height: 40px",
+				"puesto":"Operario de Logística.",
+				"empresa":"Servicios digitales de Excelencia.",
+				"disponibilidad":"Full Time",
+				"fInicio":"Junio 2021",
+				"fSalida":"Febrero 2022",
+				"direccion":"California 2082 of D 211 A"},
+
+				{"logo":"./assets/jet ba.jpeg",
+				"alternative":"logo jet",
+				"styles":"height: 45px",
+				"puesto":"Bartender",
+				"empresa":"JET BA.",
+				"disponibilidad":"Full Time",
+				"fInicio":"Enero 2017",
+				"fSalida":"Diciembre 2017",
+				"direccion":"Av. Rafael Obligado 4801"}],
+
+
+				"educacion":[{
+					"logo":"./assets/UNGS.jpg",
+					"institucion":"UNGS",
+					"carrera":"Licenciatura en Sistemas",
+					"nivel":"Marzo 2020-Actualidad",
+					"styles":"height:50px; "},
+	
+					{"logo":"./assets/ime.png",
+					"institucion":"IME JOSÉ C. PAZ.",
+					"carrera":"Técnico en Mecanica y Electrónica Automotriz",
+					"nivel":"Cursando primer año.",
+					"styles":"height:50px; "},
+	
+					{"logo":"./assets/arg programa logo.png",
+					"institucion":"Argentina Programa.",
+					"carrera":"#SeProgramar.",
+					"nivel":"Completo año 2022.",
+					"styles":"height:50px; background-color:black"
+					},
+					
+					{"logo":"./assets/arg programa logo.png",
+					"institucion":"Argentina Programa.",
+					"carrera":"#YoProgramo.",
+					"nivel":"Cursando.",
+					"styles":"height:50px; background-color:black"
+					}],
+					
+					"skills":[{
+						"tecnologia":"Python",
+						"styleBarra":"width: 70%; background-color: green;",
+						"styleIcon":"font-size: 20px; color:green ;",
+						"icon":"fa-brands fa-python"
+					},
+					{
+						"tecnologia":"Java",
+						"styleBarra":"width: 71%;background-color: orange;",
+						"styleIcon":"font-size: 20px; color: blue;",
+						"icon":"fa-brands fa-java"
+					},
+					{
+						"tecnologia":"Javascript",
+						"styleBarra":"width: 63%; background-color: rgb(179, 179, 87);",
+						"styleIcon":"font-size: 20px;color: rgb(179, 179, 90);",
+						"icon":"fa-brands fa-js"
+					},
+					{
+						"tecnologia":"Microsoft Office",
+						"styleBarra":"width: 80%;background-color: rgb(87, 178, 209);",
+						"styleIcon":"font-size: 20px;color: blue;",
+						"icon":"fa-brands fa-windows"
+					},
+					{
+						"tecnologia":"HTML 5",
+						"styleBarra":"width: 90%; background-color: rgb(250, 69, 69);",
+						"styleIcon":"font-size: 20px;color: orange;",
+						"icon":"fa-brands fa-html5"
+					},
+					{
+						"tecnologia":"CSS",
+						"styleBarra":"width: 82%; background-color: orange;",
+						"styleIcon":"font-size: 20px;color: blue;",
+						"icon":"fa-brands fa-css3-alt"
+					},
+					{
+						"tecnologia":"Inglés",
+						"styleBarra":"width: 50%; background-color: rgb(2, 2, 131);",
+						"styleIcon":"font-size: 20px;",
+						"icon":"fa-solid fa-language"
+					},
+					{
+						"tecnologia":"Ruby",
+						"styleBarra":"width: 53%; background-color: rgba(126, 7, 7, 0.733);",
+						"styleIcon":"font-size: 20px; color: rgba(126, 7, 7, 0.733);",
+						"icon":"fa-solid fa-gem"
+					},
+					{
+						"tecnologia":"Scrum",
+						"styleBarra":"width: 80%; background-color: chocolate;",
+						"styleIcon":"font-size: 20px;color: black;",
+						"icon":"fa-solid fa-person-breastfeeding"
+					},
+					{
+						"tecnologia":"Bootstrap",
+						"styleBarra":"width: 82%; background-color: rgb(39, 39, 119);",
+						"styleIcon":"font-size: 20px;color: rgb(35, 34, 119);",
+						"icon":"fa-brands fa-bootstrap"
+					},
+					{
+						"tecnologia":"Github",
+						"styleBarra":"width: 73%; background-color: gray;",
+						"styleIcon":"font-size: 20px;color: gray;",
+						"icon":"fa-brands fa-github"
+					}],
+
+					"proyectos":[{
+						"nombre":"Barbarianna",
+						"descripcion":"Juego desarrollado con Java y POO",
+						"link":"https://drive.google.com/file/d/1SZs72i7szrYPd5wxFk_5haB-ujPEDMGb/view?usp=sharing"
+					},
+					{
+						"nombre":"Portfolio Argentina Programa.",
+						"descripcion":"Proyecto portfolio web desarrollado con HTML, CSS, Bootstrap, Javascript y Angular.",
+						"link":"https://github.com/leansoda99/PortfolioFrontend.git"
+					}],
+					"datosC":[{
+						"nombre":"Email",
+						"descripcion":"lean.carp1435@gmail.com",
+						"icon":"fa-solid fa-envelope m-2"
+					},
+					{
+						"nombre":"Celular",
+						"descripcion":"1155115929",
+						"icon":"fa-solid fa-phone m-2"
+					},
+					{
+						"nombre":"Dirección particular",
+						"descripcion":"Darragueira 3265: Malvinas Argentinas, Villa de Mayo (Buenos Aires, Argentina).",
+						"icon":"fa-solid fa-house m-2 d-flex d-inline"
+					}]
+
+}

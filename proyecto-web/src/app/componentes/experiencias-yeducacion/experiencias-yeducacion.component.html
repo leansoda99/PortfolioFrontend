@@ -1,0 +1,43 @@
+<div class="container border b-dark rounded shadow-lg" style="margin: 30px">
+    <div class="row">
+        <div class="col"><h3>Experiencias</h3></div>
+        <div class="col"> <i class="fa-solid fa-plus m-2" style="font-size: 20px; float: right;"></i></div>
+    </div>
+    <!--Inicio TIP-->
+    <div class="container" *ngFor="let experiencia of experienciasList">
+    <div class="row">
+        <div class="col-2"> <img [src]="experiencia.logo" class="img-fluid shadow-lg rounded m-2" [alt]="experiencia.alternative" [style]="experiencia.styles"></div>
+        <div class="col"><h5 class="m-2">{{experiencia.puesto}}</h5></div>
+        <div class="col"> <i class="fa-solid fa-trash m-2" style="font-size: 20px; float: right;"></i><i class="fa-solid fa-pen-to-square m-2" style="font-size: 20px; float: right;"></i> </div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col" style="margin-top: -20px; margin-left: 5px;"><p class="m-2">{{experiencia.empresa}} - {{experiencia.disponibilidad}}.</p></div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col" style="margin-top: -15px; margin-left: 5px;"><h5 class="m-2" style="color: grey;">{{experiencia.fInicio}}|{{experiencia.fSalida}}. <br>{{experiencia.direccion}}</h5></div>
+    </div>
+</div>
+    
+    <!--Educacion-->
+    <div class="row mt-4">
+        <div class="col"><h3>Educación</h3></div>
+        <div class="col"> <i class="fa-solid fa-plus m-2" style="font-size: 20px; float: right;"></i></div>
+        <!--Inicio UNGS-->
+        <div class="container" *ngFor="let educacion of educacionList">
+        <div class="row">
+            <div class="col-2"> <img [src]="educacion.logo" class="img-fluid shadow-lg rounded m-2" alt="logo UNGS"  [style]="educacion.styles"></div>
+            <div class="col"><h5 class="m-2">{{educacion.institucion}}</h5></div>
+            <div class="col" style="margin-right: 10px;"> <i class="fa-solid fa-trash m-2" style="font-size: 20px; float: right;"></i><i class="fa-solid fa-pen-to-square m-2" style="font-size: 20px; float: right;"></i> </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col" style="margin-top: -40px; margin-left: 5px;"><p class="m-2">{{educacion.carrera}}</p></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col" style="margin-top: -15px; margin-left: 5px;"><h5 class="m-2" style="color: grey;">{{educacion.nivel}}</h5></div>
+        </div>
+    </div>
+  </div>

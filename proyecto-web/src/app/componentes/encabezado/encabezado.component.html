@@ -1,0 +1,31 @@
+<div class="container border b-dark rounded shadow-lg" style="margin: 30px">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm" style="height: 40px; margin: 0px 10px 0px 10px"><h3>{{miPorfolio.nombre}} {{miPorfolio.apellido}}</h3></div> 
+            <div class="col-sm" style="height: 40px; margin: 0px 10px 0px 10px">
+                <button type="button" class="btn btn-outline-secondary btn-sm" style=" float: right; margin:5px">Login</button>
+                <a [href]="miPorfolio.instagram"><i class="fa-brands fa-square-instagram"style="color: white;font-size: 30px; margin:5px; float: right;background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%);"></i></a>
+                <a [href]="miPorfolio.facebook"><i class="fa-brands fa-facebook" style="color: #3b5998;font-size: 30px; margin:5px; float: right;"></i></a>
+                <a [href]="miPorfolio.twitter"><i class="fa-brands fa-twitter" style="color: #1DA1F2;font-size: 30px; margin:5px; float: right;"></i></a>
+                </div> 
+        </div>
+    </div>
+    <div  class="container mw-75  mt-2" style="height: 400px;" >
+            <img [src]="miPorfolio.banner" class="img-fluid h-100 w-100" alt="banner">
+    </div>
+    <div class="container"> 
+        <img [src]="miPorfolio.foto" class="img-fluid rounded-circle shadow-lg border border-dark" alt="Foto perfil" style="height: 170px; width: 170px; margin-top: -100px; margin-left: 20px;">
+        <i class="fa-solid fa-pen-to-square" style="font-size: 20px;"></i>
+        <div class="row">
+            <div class="col"><h4>{{miPorfolio.nombre}} {{miPorfolio.sNombre}} {{miPorfolio.apellido}}</h4></div>
+            <div class="col"><img src="./assets/UNGS.jpg" class="img-fluid shadow-lg rounded" alt="logo ungs" style="height: 40px; float: right; margin-right: 110px;"></div>
+        </div>
+        <div class="row">
+            <div class="col"><p>{{miPorfolio.estudios}}</p></div>
+            <div class="col"><img src="./assets/logo tip.webp" class="img-fluid shadow-lg rounded" alt="logo the ink point" style="height: 30px; margin-top: 10px; float: right;"></div>
+        </div>
+        <div class="row">
+            <div class="col"><p>{{miPorfolio.localidad}} <a href="#datos_contacto">Datos de contacto.</a></p></div>
+        </div>
+    </div>
+  </div>
